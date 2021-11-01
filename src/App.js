@@ -14,9 +14,9 @@ const App = () => {
         <Switch>
           <Route path ="/" exact component={Home} /> // exact pour exclure tout les chemins contenant un /, on ne veut que le chemin /
           <Route path ="/competences" component={Knowledges} />
-          <Route component={NotFound} />
           <Route path= "/contact" component={Contact} />
-          <Route path= "/portefolio" component={Portfolio} />
+          <Route path= "/portfolio" component={Portfolio} />
+          <Route component={NotFound} />
         </Switch>
       </BrowserRouter>
     </>

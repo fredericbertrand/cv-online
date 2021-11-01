@@ -9,9 +9,17 @@ import Portfolio from './pages/Portfolio';
 
 const App = () => {
   return (
-    <div>
-      <h3>Hello World !</h3>
-    </div>
+    <>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/competences" component={Knowledges} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route component={NotFound} />
+        </Switch>  
+      </BrowserRouter>
+    </>
   );
 };
 

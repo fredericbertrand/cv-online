@@ -8,9 +8,10 @@ class ProjectList extends Component {
         projects:portfolioData,
         radios: [
             {id: 1, value: "javascript"},
-            {id: 2, value: "html/css"},
-            {id: 3, value: "java"},
-            {id: 4, value: "wordpress"}
+            {id: 2, value: "java"},
+            {id: 3, value: "wordpress"},
+            {id: 4, value: "python"},
+            {id: 5, value: "reactjs"}
         ],
         selectedRadio: 'javascript'
     };

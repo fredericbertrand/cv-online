@@ -2,7 +2,7 @@ import React from 'react';
 
 const SocialNetwork = () => {
     return (
-        <div>
+        <div className="socialNetwork">
             <ul>
                 <li>
                     <a href="https://www.linkedin.com/in/hugo-bertrand-68237319a/" target=" blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
@@ -18,7 +18,9 @@ const SocialNetwork = () => {
                 </li>
             </ul>
             <div className="signature">
-                <i className="fas fa-copyright"> Hugo Bertrand - 2021</i>
+                <i className="fas fa-copyright">
+                <span>Hugo Bertrand - 2021</span>
+                </i>
             </div>
         </div>
     );

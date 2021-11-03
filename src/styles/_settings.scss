@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;700&display=swap');
 
-$font-1: 'Josefin Sans', serif;
+$font-1: 'Josefin Sans',  sans-serif;
 
-$color-1: #2a1d52;
-$color-2: #6C77F4;
-$color-3: rgb(99, 164, 233);
-$color-4: #4FEDD2;
-$color-5: #36D0EA;
-$white: #ddd;
+$color-1: #202020;
+$color-2: #23d884;
+$color-3: rgb(255, 196, 2);
+$color-4: #bebebe;
+$color-5: #ffffff;
+$color-6: rgb(207, 159, 2);;
+$color-7: rgb(172, 132, 2);
+$white: #ffffff;
 $black: #333;
 
 $borderRadius : 25px;
 $shadow: 0 1px 3px #333;
-$min-height: 95vh;
+$minHeight: 95vh;
 
 @mixin verticalCenter{
     display: flex;
